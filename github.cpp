@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 
 int main() {
     // Declare variables
@@ -13,10 +13,10 @@ int main() {
     float quotient = static_cast<float>(a) / b; // Ensure float division
 
     // Output results
-    std::cout << "Sum: " << sum << std::endl;
-    std::cout << "Difference: " << difference << std::endl;
-    std::cout << "Product: " << product << std::endl;
-    std::cout << "Quotient: " << quotient << std::endl;
+    cout << "Sum: " << sum << endl;
+    cout << "Difference: " << difference << endl;
+    cout << "Product: " << product << endl;
+    cout << "Quotient: " << quotient << endl;
 
     return 0;
 }
